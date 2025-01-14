@@ -1,4 +1,5 @@
-🧩 IOB Slot Tagging using NLP
+**🧩 IOB Slot Tagging using NLP**
+
 This project focuses on slot tagging for natural language queries, aiming to extract meaningful information such as movies, directors, release years, and genres from user utterances. Using a dataset with IOB (Inside, Outside, Beginning) slot tags, various neural network models are developed and evaluated, including:
 
 - LSTM (Long Short-Term Memory)
@@ -17,10 +18,12 @@ IOB Tags: Corresponding slot tags in Inside, Outside, Beginning format
 Example:
 
 `ID: 1` 
-`Utterance: "Show me movies directed by Christopher Nolan"`  
+
+`Utterance: "Show me movies directed by Christopher Nolan"` 
+
 `IOB Tags: O O B-MOVIE O B-DIRECTOR I-DIRECTOR`
 
-🚀 Neural Network Models Used
+**🚀 Neural Network Models Used**
 The project evaluates the following neural network architectures for slot tagging:
 
 - LSTM (Long Short-Term Memory)
@@ -29,13 +32,13 @@ The project evaluates the following neural network architectures for slot taggin
 
 These models are combined with GloVe embeddings to capture contextual semantics and improve tagging performance.
 
-🧪 Key Findings
+**🧪 Key Findings**
 Sequential models (LSTM/GRU) outperform traditional models in handling complex queries.
 Pre-trained embeddings (GloVe) significantly improve the accuracy of slot tagging.
 The CNN model performs well but struggles with longer sequences compared to LSTM/GRU.
 
 
-📋 How to Run the Code
+**📋 How to Run the Code**
 Run the following command to execute the model on the dataset:
 
 
