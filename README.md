@@ -1,5 +1,9 @@
 **🧩 IOB Slot Tagging using NLP**
 
+
+Kaggle Competition Link : https://www.kaggle.com/competitions/nlp-243-fall-24-hw-2-slot-tagging-of-utterances
+
+
 This project focuses on slot tagging for natural language queries, aiming to extract meaningful information such as movies, directors, release years, and genres from user utterances. Using a dataset with IOB (Inside, Outside, Beginning) slot tags, various neural network models are developed and evaluated, including:
 
 - LSTM (Long Short-Term Memory)
